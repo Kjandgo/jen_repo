@@ -14,5 +14,6 @@ public class WebConfig implements WebMvcConfigurer {
                 .allowedOrigins("http://localhost:30000")      // origin 등록(k8s nodeport 이후)
                 .allowedHeaders("*")
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS");                        // method 등록(GET, POST, PUT, DELETE)
+    
     }
 }
