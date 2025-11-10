@@ -42,5 +42,6 @@ public class CalculationHistory {
     protected void onCreate() {
         createdAt = LocalDateTime.now();    // DB에 들어가기 전(save() 시점)
     }
+    
 
 }
